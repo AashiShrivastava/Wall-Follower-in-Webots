@@ -1,0 +1,100 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Parquetry.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/Wall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.5579163701540019 0.5579165243995678 0.6143764934599055 2.0397505881076032
+  position -0.5632507424469604 -0.8405486138305671 3.176802741973224
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation -0.69 -0.52 0
+  floorSize 2 2
+  floorAppearance Parquetry {
+    type "light strip"
+  }
+}
+Wall {
+  translation -1.1 0.02 0
+  name "wall(8)"
+  size 0.01 0.5 0.1
+}
+Wall {
+  translation -0.51 -1.2 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(5)"
+  size 0.01 0.8 0.1
+}
+Wall {
+  translation -0.12 -0.51 0
+  name "wall(6)"
+  size 0.01 1.4 0.1
+}
+Wall {
+  translation -1.4 -0.52 0
+  name "wall(2)"
+  size 0.01 0.6 0.1
+}
+Wall {
+  translation -1.27 -1.31 0
+  size 0.01 0.45 0.1
+}
+Wall {
+  translation -1.4 0.25 0
+  name "wall(1)"
+  size 0.01 0.5 0.1
+}
+Wall {
+  translation -1.15 -0.82 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(3)"
+  size 0.01 0.5 0.1
+}
+Wall {
+  translation -0.91 -1.01 0
+  name "wall(4)"
+  size 0.01 0.4 0.1
+}
+Wall {
+  translation -1.09 -0.22 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(7)"
+  size 0.01 0.65 0.1
+}
+Wall {
+  translation -0.79 0.26 0
+  name "wall(9)"
+  size 0.01 0.45 0.1
+}
+Wall {
+  translation -0.52 -0.22 0
+  name "wall(10)"
+  size 0.01 1.4 0.1
+}
+Wall {
+  translation -0.76 -0.530002 0
+  rotation 0 0 1 1.5708
+  name "wall(11)"
+  size 0.01 0.5 0.1
+}
+Wall {
+  translation 0.090002 -0.68 0
+  rotation 0 0 1 1.5708
+  name "wall(12)"
+  size 0.01 0.43 0.1
+}
+E-puck {
+  translation -0.05 -0.58 0
+  rotation 0 0 1 1.5708
+  controller "maze_solver"
+}
