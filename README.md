@@ -8,9 +8,9 @@ This project involves developing a **maze solving** logic that uses **wall follo
 
 # Algorithm Details
 **1. Sensor Readings :** The IR sensors continuously monitor the distance from the walls.
-**2. Decision Making :** Based on the sensor readings, the robot decides whether to take a turn or keep moving forward.
-**3. Navigation :** The robot adjusts its speed and direction to follow the wall and navigate through the maze.
+<br>**2. Decision Making :** Based on the sensor readings, the robot decides whether to take a turn or keep moving forward.
+<br>**3. Navigation :** The robot adjusts its speed and direction to follow the wall and navigate through the maze.
 
 # Acknowledgements
-**1.** The **Webots simulation software** for providing a robust platform for robot simulation.
-**2.** The **e-puck robot community** for their support and resourses.
+<br>**1.** The **Webots simulation software** for providing a robust platform for robot simulation.
+<br>**2.** The **e-puck robot community** for their support and resourses.
