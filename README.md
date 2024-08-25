@@ -1,5 +1,5 @@
 # Wall-Follower-in-Webots
-This project involves developing a **maze solving** logic that uses **wall following** algorithm to navigate and solve the maze.
+**Project Overview:** This project involves developing a **maze solving** logic that uses **wall following** algorithm to navigate and solve the maze.
 <br>The robot is simulated using the **e-puck robot** and **Proximity sensors** in the **Webots simulating world.**
 
 # Technologies Used
