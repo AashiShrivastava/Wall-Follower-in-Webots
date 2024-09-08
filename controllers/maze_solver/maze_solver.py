@@ -41,21 +41,20 @@ def start(robot):
             left_speed = max_speed
             right_speed = -max_speed
         
-        else:
-            if left_wall:
-                # Drive Forward
-                left_speed = max_speed
-                right_speed = max_speed
+        elif left_wall:
+            # Drive Forward
+            left_speed = max_speed
+            right_speed = max_speed
                 
-            elif left_corner:
-                # Drive Right
-                left_speed = max_speed
-                right_speed = max_speed/4 
+        elif left_corner:
+            # Drive Right
+            left_speed = max_speed
+            right_speed = max_speed/4 
                 
-            else: 
-                # Turn Left
-                left_speed = max_speed/4
-                right_speed = max_speed            
+        else: 
+            # Turn Left
+            left_speed = max_speed/4
+            right_speed = max_speed            
     
         # Enter here functions to send actuator commands:
         left_motor.setVelocity(left_speed)
